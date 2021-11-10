@@ -49,6 +49,8 @@ ggplot(data = pop_df, aes(x = x, y = y, fill = dist_km, color = dist_km)) +
         legend.title = element_blank(),
         legend.text.align = 1,
         panel.border = element_rect(color = "black", fill = NA, size = 1),
+        panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "white", color = NA),
         plot.subtitle = element_text(size = 8),
         plot.caption = element_text(family = "mono", size = 6),
         plot.margin = unit(c(0.2, 0.2, 0.2, 0.2), "cm"))
